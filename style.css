@@ -3,7 +3,7 @@
     gap: 20px;
     width: 250px;
     max-width: 100%;
-    background: #6299ff;
+    background: #ffd381;
     padding: 50px;
     border-radius: 20px;
     
@@ -11,10 +11,10 @@
 }
 
 .items {
-    background-color: rgb(104, 182, 255);
+    background-color: rgb(255, 237, 182);
 
 }
 
 .customer{
-    background-color:rgb(104, 182, 255);
+    background-color:rgb(255, 237, 182);
 }
