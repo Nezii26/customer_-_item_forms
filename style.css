@@ -1,0 +1,11 @@
+.container {
+    
+    gap: 20px;
+    width: 250px;
+    max-width: 100%;
+    background: #ffe2b4;
+    padding: 50px;
+    border-radius: 20px;
+    
+
+}

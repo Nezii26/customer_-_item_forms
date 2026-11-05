@@ -1,11 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <!-- <center>
+        <table>
+            <tr>
+                <td>
+                    <div class="controller container">
+
+                        <input type="text" id="textname">
+                        <input type="button" value="Click Me" onclick="btnClickMe1()">
+
+                        <h3 id="lblCustomer">Customer names</h3>
+
+                        <ol id="olCustomer">
+
+                        </ol>
+
+                    </div>
+                </td>
+                <td>
+                    <div class="controller container">
+
+                        <input type="text" id="itemName">
+                        <input type="button" value="Click Me" onclick="btnClickMe2()">
+
+                        <h3 id="lblitem">Item names</h3>
+
+                        <ol id="olitem">
+
+                        </ol>
+
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </center> -->
+
+    <center>
+        <table>
+            <tr>
+                <td>
+                    <div class="container">
+                        <h3 id="lblCustomer">Customer Management</h3>
+                        <label for="name">Name</label>
+                        <input type="text" id="txtId" placeholder="Id"><br>
+                        <input type="text" id="txtName" placeholder="Name"><br>
+                        <input type="text" id="txtAge" placeholder="Age"><br>
+                        <input type="text" id="txtAddres" placeholder="Address"><br>
+                        <input type="text" id="txtSalary" placeholder="Salary"><br>
+
+                        <br>
+                        <input type="button" value="Add Customer" onclick="addCustomer()">
+
+                        <h3 id="lblCustomer">View Customer</h3>
+                        <table border="1" width="100%" id="tblcustomer">
+                            <tr>
+                                <th>Id</th>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Address</th>
+                                <th>Salary</th>
+                            </tr>
+
+                        </table>
+                    </div>
+
+                </td>
+                <td>
+                    <div class="container">
+                        <h3 id="lblCustomer">Item Management</h3>
+                        <input type="text" id="txtcode" placeholder="Item code"><br>
+                        <input type="text" id="txtiName" placeholder="Item Name"><br>
+                        <input type="text" id="txtprice" placeholder="Price"><br>
+                        <input type="text" id="txtdate" placeholder="Exp.Date"><br>
+                        <input type="text" id="txtContact" placeholder="Contact"><br>
+
+                        <br>
+                        <input type="button" value="Add Customer" onclick="addItem()">
+
+                        <h3 id="lblCustomer">View Item</h3>
+                        <table border="1" width="100%" id="tblItem">
+                            <tr>
+                                <th>Item code</th>
+                                <th>Name</th>
+                                <th>Price</th>
+                                <th>Exp.Date</th>
+                                <th>Contact</th>
+                            </tr>
+
+                        </table>
+                    </div>
+
+                </td>
+            </tr>
+        </table>
+    </center>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
 </body>
+
 </html>
