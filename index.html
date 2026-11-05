@@ -50,18 +50,55 @@
                 <td>
                     <div class="container">
                         <h3 id="lblCustomer">Customer Management</h3>
-                        <label for="name">Name</label>
-                        <input type="text" id="txtId" placeholder="Id"><br>
-                        <input type="text" id="txtName" placeholder="Name"><br>
-                        <input type="text" id="txtAge" placeholder="Age"><br>
-                        <input type="text" id="txtAddres" placeholder="Address"><br>
-                        <input type="text" id="txtSalary" placeholder="Salary"><br>
+
+                        <table>
+                            <tr>
+                                <td><label for="txtId">Id</label></td>
+                                <td><input type="text" id="txtId" placeholder="Id"><br></td>
+                                
+
+                            </tr>
+                            <tr>
+                                <td><label for="txtName">Name</label></td>
+                                <td><input type="text" id="txtName" placeholder="Name"><br></td>
+                                
+
+                            </tr>
+                            <tr>
+
+                                <td><label for="txtId">Age</label></td>
+                                <td><input type="txtAge" id="txtAge" placeholder="Age"><br></td>
+                                
+                            </tr>
+                            <tr>
+
+                                <td><label for="txtAddres">Address</label></td>
+                                <td><input type="txtAddres" id="txtAddres" placeholder="Address"><br></td>
+                                   
+
+                            </tr>
+                            <tr>
+                                <td><label for="txtSalary">Salary </label></td>
+                                <td><input type="text" id="txtSalary" placeholder="Salary"><br></td>
+                            </tr>
+                        </table>
+
+
+
+
+
+
+
+
+
+
+
 
                         <br>
                         <input type="button" value="Add Customer" onclick="addCustomer()">
 
                         <h3 id="lblCustomer">View Customer</h3>
-                        <table border="1" width="100%" id="tblcustomer">
+                        <table border="1" width="100%" id="tblcustomer" class="customer">
                             <tr>
                                 <th>Id</th>
                                 <th>Name</th>
@@ -77,17 +114,49 @@
                 <td>
                     <div class="container">
                         <h3 id="lblCustomer">Item Management</h3>
-                        <input type="text" id="txtcode" placeholder="Item code"><br>
-                        <input type="text" id="txtiName" placeholder="Item Name"><br>
-                        <input type="text" id="txtprice" placeholder="Price"><br>
-                        <input type="text" id="txtdate" placeholder="Exp.Date"><br>
-                        <input type="text" id="txtContact" placeholder="Contact"><br>
+
+                        <table>
+                            <tr>
+
+                                <td><label for="txtcode">ItemCode</label></td>
+                                <td><input type="text" id="txtcode" placeholder="Item code"><br></td>
+
+                            </tr>
+                            <tr>
+
+                                <td><label for="txtiName"></label>ItemName</td>
+                                <td><input type="text" id="txtiName" placeholder="Item Name"><br></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td><label for="txtprice">Price</label></td>
+                                <td><input type="text" id="txtprice" placeholder="Price"><br></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td><label for="txtdate">Exp.Date</label></td>
+                                <td><input type="text" id="txtdate" placeholder="Exp.Date"><br></td>
+
+
+                            </tr>
+                            <tr>
+
+                                <td><label for="txtContact">Contact</label></td>
+                                <td><input type="text" id="txtContact" placeholder="Contact"><br></td>
+
+
+                            </tr>
+                        </table>
 
                         <br>
                         <input type="button" value="Add Customer" onclick="addItem()">
 
                         <h3 id="lblCustomer">View Item</h3>
-                        <table border="1" width="100%" id="tblItem">
+                        <table border="1" width="100%" id="tblItem" class="items">
                             <tr>
                                 <th>Item code</th>
                                 <th>Name</th>

@@ -3,9 +3,18 @@
     gap: 20px;
     width: 250px;
     max-width: 100%;
-    background: #ffe2b4;
+    background: #6299ff;
     padding: 50px;
     border-radius: 20px;
     
 
+}
+
+.items {
+    background-color: rgb(104, 182, 255);
+
+}
+
+.customer{
+    background-color:rgb(104, 182, 255);
 }
